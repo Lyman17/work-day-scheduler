@@ -1,82 +1,71 @@
-/* 
-   CSS code for styling a time-block planner application.
-   The styles defined here are meant to customize the appearance of various elements
-   to enhance the user experience and improve readability.
-
-   Note: The actual HTML structure and interaction with JavaScript are not shown here,
-   but this CSS is likely used in conjunction with an HTML layout and JavaScript
-   functionality to create a functional time-block planner.
-
-*/
-
-/* Styling for the body element */
 body {
-    font-family: 'Open Sans', sans-serif; /* Uses 'Open Sans' font or a default sans-serif font for the entire document */
-    font-size: 16px; /* Sets the default font size to 16 pixels for better readability */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
   }
   
-  /* Styling for the textarea elements used in the time-blocks */
   textarea {
-    background: transparent; /* Makes the background of the textarea transparent */
-    border: none; /* Removes the border of the textarea */
-    resize: none; /* Prevents the user from resizing the textarea */
-    color: #000000; /* Sets the text color to black */
-    border-left: 1px solid black; /* Adds a left border with a 1-pixel width and black color */
-    padding: 10px; /* Adds 10 pixels of padding inside the textarea */
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
   }
   
-  /* Styling for elements with the class 'description' */
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
   .description {
-    white-space: pre-wrap; /* Allows wrapping of text and preserves whitespace for better formatting */
+    white-space: pre-wrap;
   }
   
-  /* Styling for elements with the class 'time-block' */
   .time-block {
-    border-radius: 15px; /* Rounds the corners of the element with a 15-pixel radius, giving it a rounded appearance */
+    text-align: center;
+    border-radius: 15px;
   }
   
-  /* Styling for elements with the class 'row' */
   .row {
-    border-top: 1px solid white; /* Adds a top border with a 1-pixel width and white color */
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
   }
   
-  /* Styling for elements with the class 'hour' */
   .hour {
-    background-color: #ffffff; /* Sets the background color to white */
-    color: #000000; /* Sets the text color to black */
-    border-top: 1px dashed #000000; /* Adds a dashed top border with a 1-pixel width and black color */
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
   }
   
-  /* Styling for elements with the class 'past' */
   .past {
-    background-color: #d3d3d3; /* Sets the background color to light gray */
-    color: white; /* Sets the text color to white */
+    background-color: #d3d3d3;
+    color: white;
   }
   
-  /* Styling for elements with the class 'present' */
   .present {
-    background-color: #ff6961; /* Sets the background color to a light red */
-    color: white; /* Sets the text color to white */
+    background-color: #ff6961;
+    color: white;
   }
   
-  /* Styling for elements with the class 'future' */
   .future {
-    background-color: #77dd77; /* Sets the background color to a light green */
-    color: white; /* Sets the text color to white */
+    background-color: #77dd77;
+    color: white;
   }
   
-  /* Styling for elements with the class 'saveBtn' */
   .saveBtn {
-    border-left: 1px solid black; /* Adds a left border with a 1-pixel width and black color */
-    border-top-right-radius: 15px; /* Rounds the top-right corner with a 15-pixel radius, giving it a rounded appearance */
-    border-bottom-right-radius: 15px; /* Rounds the bottom-right corner with a 15-pixel radius, giving it a rounded appearance */
-    background-color: #06aed5; /* Sets the background color to a light blue */
-    color: white; /* Sets the text color to white */
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06aed5;
+    color: white;
   }
   
-  /* Styling for the hover effect on elements inside 'saveBtn' class */
   .saveBtn i:hover {
-    font-size: 20px; /* Increases the font size to 20 pixels on hover */
-    transition: all 0.3s ease-in-out; /* Adds a smooth transition effect over 0.3 seconds */
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
   }
-  
