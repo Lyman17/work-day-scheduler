@@ -26,8 +26,8 @@ This is a basic day planner app that loops through the hours of 8am - 5pm(typica
 5.  Data of text is to be stored in localStorage of the browser until page is restarted. Refreshed page should still keep the localStorage.
 
 
-## Screenshot
-<!-- insert screenshot here -->
+## Mock-Up
+![screenshot of site](<assets/Screenshot Work-Day-Scheduler.png>)
 
 ## Installation
 
