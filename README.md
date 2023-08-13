@@ -5,13 +5,14 @@ Create a simple calendar application that allows the user to save events for eac
 You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
 ## Links:
-```
-Live Site: 
-     https://blyman17.github.io/work-day-scheduler/
-   
-Code Repo: 
-     https://github.com/blyman/work-day-scheduler
 
+Live Site: 
+```
+    https://lyman17.github.io/work-day-scheduler/
+  ```
+Code Repo: 
+```
+     https://github.com/Lyman17/work-day-scheduler
 ```
 
 ## Application Description
